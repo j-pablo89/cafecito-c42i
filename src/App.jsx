@@ -14,7 +14,8 @@ import Login from './components/views/Login';
 import { useState } from "react";
 
 function App() {
-  const [usuarioLogueado, setUsuarioLogueado] = useState({});
+  const usuarioSessionStorage = JSON.parse(sessionStorage.getItem('usuario')) || {};
+  const [usuarioLogueado, setUsuarioLogueado] = useState(usuarioSessionStorage);
   return (
     <BrowserRouter>
     <Menu usuarioLogueado={usuarioLogueado} setUsuarioLogueado={setUsuarioLogueado}></Menu>
