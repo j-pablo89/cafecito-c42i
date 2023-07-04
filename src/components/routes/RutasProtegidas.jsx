@@ -1,5 +1,6 @@
 import { Navigate } from "react-router-dom";
 
+//children hace referencia a las rutas protegidas, en este caso las rutas del administrador
 const RutasProtegidas = ({children}) => {
     //logica que quiero averiguar
     const usuarioLogueado = JSON.parse(sessionStorage.getItem('usuario')) || null;
