@@ -7,6 +7,22 @@
       "categoria": "bebida caliente",
       "imagen": "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "descripcion": "alguna descripcion..."
+    },
+    {
+      "nombreProducto": "Te de manzanilla",
+      "precio": 200,
+      "categoria": "bebida caliente",
+      "imagen": "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "descripcion": "alguna descripcion...",
+      "id": 2
+    },
+    {
+      "nombreProducto": "Té",
+      "precio": 150,
+      "categoria": "bebida caliente",
+      "imagen": "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "descripcion": "alguna descripcion...",
+      "id": 3
     }
   ],
   "usuarios": [
