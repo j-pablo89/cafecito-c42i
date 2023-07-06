@@ -23,6 +23,13 @@
       "imagen": "https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "descripcion": "alguna descripcion...",
       "id": 3
+    },
+    {
+      "nombreProducto": "brownie",
+      "precio": "300",
+      "imagen": "https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg",
+      "categoria": "dulce",
+      "id": 4
     }
   ],
   "usuarios": [
