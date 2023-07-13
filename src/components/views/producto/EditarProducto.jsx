@@ -13,6 +13,7 @@ const EditarProducto = () => {
     reset,
     setValue
   } = useForm();
+  //Parametro del producto. En este caso usamos el id para extraer el producto
   const {id} = useParams();
 
   useEffect(()=>{
